@@ -1,0 +1,119 @@
+<!-- AE3 - REQUERIMIENTO 1 - PAGINA WEB EDIX (HTML) -->
+<!-- Alumno: Alexis Mialdea Rina -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Tecnológico EDIX</title>
+  <link rel="stylesheet" type="text/css" href="Actividad.css">
+</head>
+<body>
+  <header>
+    <img src="Edix.png" alt="Logo de EDIX"> <!-- Importar imágenes -->
+    <h1>Instituto Tecnológico EDIX</h1>
+  </header>
+
+  <main>
+    <section> <!-- Esta etiqueta se utiliza para estructurar el contenido en varias secciones  -->
+      <h2>INFORMACIÓN DE CONTACTO</h2>
+      <table>
+        <tr> <!-- Esta etiqueta se utiliza para crear la fila de la tabla -->
+          <th>Empresa</th>
+          <td>Proeduca</td>
+        </tr>
+        <tr> 
+          <th>Teléfono</th>
+          <td><a href="tel:+34917873991">+34 91 787 39 91</a></td>
+        </tr>
+        <tr>
+          <th>Página web</th>
+          <td><a href="https://institutotecnologico.edix.com">https://institutotecnologico.edix.com</a></td> <!-- Enlace (requisito) -->
+        </tr>
+      </table>
+    </section>
+
+    <section> 
+      <h2>PROFESORES</h2>
+      <ul> <!-- Se utiliza para crear una lista desordenada -->
+        <li>Félix</li> <!-- Lista de los profesores (requisito) -->
+        <li>Raúl</li>
+        <li>Raquel</li>
+        <li>Tomás</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>DIRECTOR DE LA ESCUELA</h2>
+      <p><strong>Nombre:</strong> Chon</p> <!-- Etiqueta <STRONG> es para poner el texto en negrita -->
+      <p><strong>Despacho:</strong> Número 31, 3ª Planta, Edificio A</p> <!-- Etiqueta <STRONG> es para poner el texto en negrita -->
+    </section>
+
+    <section>
+      <h2>JEFE DE ESTUDIOS</h2>
+      <p><strong>Nombre:</strong> Dani</p> <!-- Etiqueta <STRONG> es para poner el texto en negrita -->
+      <p><strong>Despacho:</strong> Número 27, 2ª Planta, Edificio B</p> <!-- Etiqueta <STRONG> es para poner el texto en negrita -->
+    </section>
+
+    <section>
+      <h2>CICLOS QUE SE IMPARTEN</h2>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Grado</th>
+          <th>Año decreto título</th>
+        </tr>
+        <tr>
+          <td>ASIR</td>
+          <td><a href="https://www.edix.com/es/instituto/que-es-asir/">Administración de Sistemas Informáticos en Red</a></td> <!-- Enlace (requisito) -->
+          <td>Superior</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>DAW</td>
+          <td><a href="https://unirfp.unir.net/ingenieria/fp-grado-daw-desarrollo-de-aplicaciones-web/">Desarrollo de Aplicaciones Web</a></td> <!-- Enlace (requisito) -->
+          <td>Superior</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>DAM</td>
+          <td><a href="https://unirfp.unir.net/ingenieria/fp-grado-desarrollo-aplicaciones-multiplataforma-dam/">Desarrollo de Aplicaciones Multiplataforma</a></td> <!-- Enlace (requisito) -->
+          <td>Superior</td>
+          <td>2010</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>FORMULARIO DE CONTACTO</h2> <!-- Formulario de contacto (requisito) -->
+      <form>
+        <label for="nombre">Nombre:</label> 
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <footer> <!-- FOOTER de la pagina web-->
+    <ul class="redes-sociales">  <!-- Lista de los redes sociales (requisito) -->
+      <li><a href="https://twitter.com/UNIRuniversidad" target="_blank"><img src="twitter.jpg" alt="Twitter"></a></li> <!-- Enlace (requisito) -->
+      <li><a href="https://www.instagram.com/uniruniversidad/" target="_blank"><img src="instagram.jpg" alt="Instagram"></a></li> <!-- Enlace (requisito) -->
+      <li><a href="https://www.linkedin.com/school/unir-universidad-internet/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a></li> <!-- Enlace (requisito) -->
+    </ul>
+    <div class="politicas">
+      <a href="https://www.aepd.es/es/politica-de-privacidad-y-aviso-legal">Política de privacidad</a> | <!-- Enlace (requisito) -->
+      <a href="https://portal.mineco.gob.es/es-es/ministerio/Paginas/Politica_de_privacidad.aspx">Política de datos</a> | <!-- Enlace (requisito) -->
+      <a href="https://www.interior.gob.es/opencms/es/politica-de-cookies/">Política de cookies</a> <!-- Enlace (requisito) -->
+    </div>
+    <p> Copyright &copy; Alexis Mialdea Rina - 2023 Instituto Tecnológico Edix.</p>
+  </footer>
+</body>
+</html>
